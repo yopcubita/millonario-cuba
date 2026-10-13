@@ -1,0 +1,20 @@
+{
+  "name": "millonario-cuba",
+  "version": "1.0.0",
+  "scripts": {
+    "sync": "cap sync android",
+    "apk": "cap sync android && cd android && ./gradlew assembleDebug",
+    "open": "cap open android"
+  },
+  "author": "yopcubita",
+  "license": "MIT",
+  "description": "¿Quién quiere ser millonario? Edición Cuba: juego de preguntas para Android con premios en pesos cubanos.",
+  "dependencies": {
+    "@capacitor/android": "^7.6.9",
+    "@capacitor/cli": "^7.6.9",
+    "@capacitor/core": "^7.6.9",
+    "@fontsource/dm-sans": "^5.3.0",
+    "@fontsource/fraunces": "^5.3.0"
+  },
+  "private": true
+}

@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Millonario Cuba</string>
+    <string name="title_activity_main">Millonario Cuba</string>
+    <string name="package_name">cu.millonario.juego</string>
+    <string name="custom_url_scheme">cu.millonario.juego</string>
+</resources>
